@@ -1,8 +1,7 @@
-## Put comments here that give an overall description of what your
+## This R file lets user cache the inverse of a matrix
 ## functions do
 
-## Write a short comment describing this function
-
+## This function canc cache the inverse matrix.
 makeCacheMatrix <- function(x = matrix()) {
 
 }
