@@ -1,7 +1,6 @@
-## This R file lets user cache the inverse of a matrix
-        ## functions do
-
-## This function creates a special matrix object that cache its inverse.
+## This R file allows the user to cache the inverse of a special "matrix".
+       
+## This makeCacheMatrix function creates a special matrix object that cache its inverse.
 makeCacheMatrix <- function(x = matrix()) {
   inverseMatrix <- NULL
   set <- function(y) {
@@ -15,8 +14,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## This function deals with th computation of inverse returned from the function above.
-
+## This cacheSolve function deals with th computation of inverse returned from the function above.
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
   inverseMatrix <- x$getinverseMatrix()
