@@ -1,3 +1,4 @@
+## Kirk Patrick D. Doloroso
 ## This R file allows the user to cache the inverse of a special "matrix".
        
 ## This makeCacheMatrix function creates a special matrix object that cache its inverse.
